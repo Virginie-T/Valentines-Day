@@ -1,0 +1,89 @@
+
+html, body {
+	height: 100%;
+}
+
+body {
+  	justify-content: center;
+  	width: 100%;
+	background-color: #ffa3bd;
+	background-image: url(http://www.transparenttextures.com/patterns/elastoplast.png);
+} 
+
+.fleche1 {
+	margin: 55px 10px 0 30px;
+	position: absolute;
+	width: 15%;
+}
+
+.fleche2 {
+	margin: 65px 30px 0 0px;
+	right: 0;		
+	position: absolute;
+	display: block;
+	width: 15%;
+}
+
+.st-val {
+  	font-family: "hazel_grace";
+  	color: red;
+  	font-size: 9em;
+  	margin-top: 30px;
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+.pic {
+	width: 65%;
+	display: block;
+	margin: -120px auto 40px auto;
+}
+
+.wishes {
+	color: white;
+	font-size: 30px;
+	font-family: "Because_I_am Happy_Regular";
+	text-align: center;
+	margin: 0 50px 0 50px;
+}
+
+#rose {
+	max-width:100%
+  	text-align: center;
+  	margin-left: 420px;
+  	margin-top: 50px;
+}
+
+.joana {
+	font-family: "Because_I_am Happy_Regular";
+	font-size: 100px;
+	margin: -720px 0 0 -360px;
+	display: block;
+	position: absolute;
+	color: white;
+}
+
+.ty {
+	font-family: "Because_I_am Happy_Regular";
+	font-size: 100px;
+	margin: -500px 0 0 270px;
+	display: block;
+	position: absolute;
+	color: white;
+}
+
+@font-face {
+	font-family: "Because_I_am Happy_Regular";
+	src: url("font/Because_I_am Happy_Regular.ttf");
+}
+
+@font-face {
+	font-family: "hazel_grace";
+	src: url("font/hazel_grace.ttf");
+}
+
+#gi {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
